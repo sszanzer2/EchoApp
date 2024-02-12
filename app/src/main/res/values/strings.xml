@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EchoApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tv_prompt">Please enter the text you want echoed \nthen press the play button: </string>
+    <string name="et_hint">Please Type Text Here</string>
+    <string name="initial_tv_text">Shana\'s attempt at an echo app</string>
+
+</resources>

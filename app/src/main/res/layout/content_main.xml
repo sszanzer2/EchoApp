@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_prompt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="@dimen/standard_margins"/>
+
+    <EditText
+        android:id="@+id/et_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:ems="10"
+        android:hint="@string/et_hint"/>
+
+    <TextView
+        android:id="@+id/tv_echo_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_tv_text"
+        android:layout_marginTop="@dimen/standard_margins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+
+
+
+</LinearLayout>
